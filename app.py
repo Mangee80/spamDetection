@@ -4,6 +4,9 @@ import string
 from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
+from sklearn.feature_extraction.text import TfidfVectorizer
+import pickle
+tfidf = TfidfVectorizer()
 
 ps = PorterStemmer()
 
